@@ -23,189 +23,490 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
-                </section>
-                <section>
-                    <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
-                        <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
-                        </p>
-                    </section>
-                </section>
-                <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
-                        <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
-                </section>
-                <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
-                </section>
-                <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
-                    <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
-                        </code>
-                        tag!
-                    </div>
+                    <h1><code>Pygame</code></h1>
                     <img
                         class="r-stretch"
-                        src="https://goqr.me/"
+                        src="https://ktkv-presentations.github.io/algos-23"
                         data-type="qrcode" />
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section>
+                        <h1><code>Pygame</code></h1>
+                        <p>
+                            набор Python-библиотек, который предоставляет
+                            инструменты для разработки 2D игр и мультимедийных
+                            приложений
+                        </p>
+                        <p>Позволяет работать с:</p>
+                        <ul>
+                            <li>Графикой</li>
+                            <li>Звуком</li>
+                            <li>Событиями и вводом</li>
+                            <li>Таймерами и анимациями</li>
+                            <li>Обработкой коллизий</li>
+                            <li>Многозадачностью</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Установка зависимостей</h1>
+                        <p>
+                            Установка Pygame выполняется через пакетный менеджер
+                            pip
+                        </p>
+                        <pre><code data-trim class="bash">
+pip install pygame
+                        </code></pre>
+                        <em>
+                            В случае с работой локально - необходимо перед этим
+                            инициализировать виртуальную среду окружения через
+                            пакет
+                            <code>venv</code>
+                        </em>
+                        <hr />
+                        <p>Для работы с модулем его необходимо импортировать</p>
+                        <pre><code data-trim class="python">
+ import pygame
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Инициализация</h1>
+                        <h4><code class="python">pygame.init()</code></h4>
+                        <p>
+                            запускает все внутренние модули библиотеки, такие
+                            как модули для работы с графикой, звуком и событиями
+                        </p>
+                        <pre><code data-trim class="python">
+import pygame
+pygame.init()
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Создание окна</h1>
+                        <h4>
+                            <code class="python">
+                                pygame.display.set_mode()
+                            </code>
+                        </h4>
+                        <p>создает окно для отображения игры</p>
+                        <pre><code data-trim class="python">
+screen = pygame.display.set_mode((800, 600))
+                        </code></pre>
+                        <em>создает окно размером 800x600</em>
+                        <hr />
+                        <h4>
+                            Переменная
+                            <code>screen</code>
+                        </h4>
+                        <p>
+                            хранит окно, в котором будут отображаться все
+                            элементы игры
+                        </p>
+                    </section>
+                    <section>
+                        <h1>Игровой цикл</h1>
+                        <p>
+                            Все события игры происходят в рамках главного
+                            игрового цикла
+                        </p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Обработка событий</h4>
+                                <p>Проверка, что происходило на экране</p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Обновление состояния</h4>
+                                <p>Модификация данных игры</p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Отображение</h4>
+                                <p>Отрисовка объектов игры на экране</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Работа с модулями</h1>
+                        <h4>Изображение</h4>
+                        <p>
+                            Для загрузки и отображения изображений используется
+                            <code>pygame.image.load()</code>
+                        </p>
+                        <pre><code data-trim class="python">
+player_image = pygame.image.load('player.png')
+screen.blit(player_image, (x, y))
+                        </code></pre>
+                        <em>
+                            Отображение изображения на экране в координатах (x,
+                            y)
+                        </em>
+                    </section>
+                    <section>
+                        <h4>Текст</h4>
+                        <p>
+                            Для отображения текста используется модуль
+                            <code>pygame.font</code>
+                        </p>
+                        <pre><code data-trim class="python">
+font = pygame.font.SysFont('Arial', 30)
+text = font.render('Hello, Pygame!', True, (255, 255, 255))
+screen.blit(text, (x, y))
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h4>Цвета</h4>
+                        <p>
+                            цвета задаются с использованием кортежей RGB
+                            (красный, зеленый, синий)
+                        </p>
+                        <pre><code data-trim class="python">
+red = (255, 0, 0)
+screen.fill(red)  # Заполнение экрана красным цветом
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h4>Шрифты</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h5>Системные шрифты</h5>
+                                <pre><code data-trim class="python">
+pygame.font.SysFont()
+                                </code></pre>
+                            </div>
+                            <div class="border-b">
+                                <h5>Шрифты TrueType</h5>
+                                <p>
+                                    Загружаются через
+                                    <code>pygame.font.Font()</code>
+                                </p>
+                                <em>
+                                    если у вас есть файл шрифта в расширении
+                                    arial.ttf
+                                </em>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Работа с событиями</h1>
+                        <h3>Обработка пользовательского ввода</h3>
+                        <h4><code>pygame.event.get()</code></h4>
+                        <p>
+                            Позволяет получить список всех событий, произошедших
+                            за последний кадр, и обработать их
+                        </p>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.QUIT</code></h4>
+                        <p>возникает, когда пользователь закрывает окно игры</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        running = False
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.KEYDOWN</code></h4>
+                        <p>возникает, когда клавиша на клавиатуре нажата</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_LEFT:
+            x -= 5
+        elif event.key == pygame.K_RIGHT:
+            x += 5
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.KEYUP</code></h4>
+                        <p>
+                            возникает, когда клавиша на клавиатуре отпускается
+                        </p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.KEYUP:
+        if event.key == pygame.K_LEFT:
+            # Прекратить движение влево
+            x_speed = 0
+        elif event.key == pygame.K_RIGHT:
+            # Прекратить движение вправо
+            x_speed = 0
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.MOUSEBUTTONDOWN</code></h4>
+                        <p>возникает, когда кнопка мыши нажимается</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.MOUSEBUTTONDOWN:
+        if event.button == 1:  # Левый клик мыши
+            print("Левый клик в точке", event.pos)
+        elif event.button == 3:  # Правый клик мыши
+            print("Правый клик в точке", event.pos)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.MOUSEBUTTONUP</code></h4>
+                        <p>возникает, когда кнопка мыши отпускается</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.MOUSEBUTTONUP:
+        if event.button == 1:  # Левый клик мыши
+            print("Левый клик отпущен в точке", event.pos)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.MOUSEMOTION</code></h4>
+                        <p>возникает, когда мышь перемещается по экрану</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.MOUSEMOTION:
+        print("Мышь перемещена в точку", event.pos)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Виды событий</h1>
+                        <h4><code>pygame.MOUSEWHEEL</code></h4>
+                        <p>возникает при прокрутке колесика мыши</p>
+                        <pre><code data-trim class="python">
+for event in pygame.event.get():
+    if event.type == pygame.MOUSEWHEEL:
+        if event.y &gt; 0:
+            print("Колесо прокручено вверх")
+        elif event.y &lt; 0:
+            print("Колесо прокручено вниз")
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Структура проекта</h1>
+                        <p>
+                            разделен на несколько папок и файлов для удобства
+                            разработки и последующего масштабирования
+                        </p>
+                        <pre
+                            class="r-stretch"><code data-trim data-line-numbers class="plaintext">
+my_game/
+├── assets/            # Папка для всех ресурсов игры (изображения, звуки, шрифты и т.д.)
+│   ├── images/        # Изображения (спрайты, фоны и т.д.)
+│   ├── sounds/        # Звуки (эффекты, музыка и т.д.)
+│   └── fonts/         # Шрифты
+├── src/               # Исходный код
+│   ├── __init__.py    # Инициализация пакета
+│   ├── game.py        # Главный файл игры
+│   ├── player.py      # Модуль управления персонажем
+│   ├── level.py       # Модуль уровней
+│   ├── settings.py    # Конфигурационные параметры игры
+│   └── utils.py       # Утилиты и вспомогательные функции
+├── README.md          # Документация о проекте
+└── requirements.txt   # Зависимости (например, pygame)
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Обновление экрана</h1>
+                        <p>
+                            После того как объекты обновлены, экран должен быть
+                            перерисован с новыми данными
+                        </p>
+                        <pre><code data-trim class="python">
+screen.fill((0, 0, 0))  # Очистка экрана (черный цвет)
+... отрисовка сущностей ...
+pygame.display.flip()  # Обновление экрана
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Рендеринг (отрисовка объектов)</h1>
+                        <p>
+                            На каждом шаге игрового цикла нужно перерисовывать
+                            объекты
+                        </p>
+                        <pre><code data-trim class="python">
+player.render(screen)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Пример основного цикла</h1>
+                        <pre
+                            class="r-stretch"><code data-trim data-line-numbers class="python">
+import pygame
+
+pygame.init()
+
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Game Loop Example")
+
+player_x = 100
+player_y = 100
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+    
+    player_x += 1  # Пример: движение вправо
+    
+    screen.fill((0, 0, 0))  # Очистка экрана
+    pygame.draw.rect(screen, (255, 0, 0), (player_x, player_y, 50, 50))  # Отображение игрока
+    
+    pygame.display.flip()
+
+pygame.quit()
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Работа с изображениями</h1>
+                        <ul>
+                            <li>
+                                изображения загружаются с помощью функции
+                                <code>pygame.image.load()</code>
+                            </li>
+                            <li>
+                                После загрузки изображение можно отобразить на
+                                экране с помощью
+                                <code>blit()</code>
+                            </li>
+                        </ul>
+                        <pre><code data-trim class="python">
+screen = pygame.display.set_mode(....)
+
+player_image = pygame.image.load("player.png")
+screen.blit(player_image, (350, 250))
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Размеры изображения</h1>
+                        <p>
+                            Изменение размера изображения происходит через
+                            <code>pygame.transform.scale()</code>
+                        </p>
+                        <pre><code data-trim class="python">
+player_image = pygame.image.load("player.png")
+player_image = pygame.transform.scale(player_image, (50, 50))
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Прозрачность</h1>
+                        <p>
+                            При работе с изображениями с альфа-каналом
+                            необходимо pygame указать, чтобы он работал с ним
+                            как с альфа-каналом
+                        </p>
+                        <h4>Альфа-канал</h4>
+                        <p>
+                            указывает, насколько этот пиксель прозрачен или
+                            непрозрачен
+                        </p>
+                        <pre><code data-trim class="python">
+player_image = pygame.image.load("player.png")
+player_image = player_image.convert_alpha() 
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Столкновения</h1>
+                        <p>
+                            когда два объекта пересекаются или оказываются на
+                            одной позиции
+                        </p>
+                        <h4><code>pygame.Rect.colliderect()</code></h4>
+                        <p>
+                            используется для проверки пересечения
+                            прямоугольников
+                        </p>
+                    </section>
+                    <section>
+                        <h1>Методы проверки столкновений</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>
+                                    <code class="python">collidelist()</code>
+                                </h4>
+                                <p>
+                                    проверка столкновения с первым объектом в
+                                    списке
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>
+                                    <code class="python">collidelistall()</code>
+                                </h4>
+                                <p>
+                                    проверка столкновения с любыми объектами в
+                                    списке
+                                </p>
+                            </div>
+                            <div class="border-b col-span-2">
+                                <h4>
+                                    <code class="python">collidepoint()</code>
+                                </h4>
+                                <p>
+                                    проверка, находится ли точка в пределах
+                                    прямоугольника
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <pre class="r-stretch"><code data-trim data-line-numbers class="python">
+import pygame
+
+pygame.init()
+
+# Настройка экрана
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Collision Detection Example")
+
+# Игровые объекты
+player_image = pygame.image.load("player.png")
+player_rect = player_image.get_rect()
+enemy_image = pygame.image.load("enemy.png")
+enemy_rect = enemy_image.get_rect()
+
+# Позиционирование объектов
+player_rect.topleft = (100, 100)
+enemy_rect.topleft = (200, 100)
+
+# Основной цикл игры
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Перемещение персонажа (влево)
+    player_rect.x += 5
+
+    # Проверка столкновения
+    if player_rect.colliderect(enemy_rect):
+        print("Столкновение!")
+
+    # Заполнение экрана
+    screen.fill((255, 255, 255))
+
+    # Отображение объектов
+    screen.blit(player_image, player_rect)
+    screen.blit(enemy_image, enemy_rect)
+
+    # Обновление экрана
+    pygame.display.flip()
+
+pygame.quit()
+                        </code></pre>
+                    </section>
                 </section>
             </div>
         </div>
@@ -396,4 +697,3 @@ var foo = {
         </script>
     </body>
 </html>
-
